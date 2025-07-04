@@ -1,3 +1,4 @@
+ HEAD
 pandas
 numpy
 nltk
@@ -5,3 +6,12 @@ scikit-learn
 matplotlib
 seaborn
 jupyter
+=======
+pandas
+numpy
+nltk
+scikit-learn
+matplotlib
+seaborn
+jupyter
+b33098ab49fb173100528be8a6f2827e6205c3db
