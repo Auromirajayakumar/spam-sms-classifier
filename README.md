@@ -1,47 +1,35 @@
-#  Spam SMS Classifier
+# 📩 Spam SMS Classifier
 
-A simple machine learning model that classifies SMS messages as **Spam** or **Not Spam** using Natural Language Processing (NLP) techniques and classification algorithms.
-
----
-
-##  What it Does
-
-- Cleans and processes SMS text using NLP
-- Converts text to numerical features using TF-IDF
-- Trains using Naive Bayes classifier
-- Evaluates accuracy with confusion matrix and classification report
+A real-time **NLP-based Streamlit web app** that classifies SMS messages as **Spam** or **Not Spam** using machine learning.  
+Trained on the classic SMS Spam Collection Dataset and deployed on **Streamlit Cloud**.
 
 ---
 
-## 📁 Dataset
+## Live Demo
 
-- Source: SMS Spam Collection Dataset
-- Columns: `label` (spam/ham), `text`
-- You can find the dataset in the `/dataset` folder
+👉 [Click here to try it out!](https://auromirajayakumar-spam-sms-classifier.streamlit.app/)
 
 ---
 
-##  How to Run
+##  What It Does
 
-```bash
-git clone https://github.com/Auromirajayakumar/spam-sms-classifier.git
-cd spam-sms-classifier
-pip install -r requirements.txt
-jupyter notebook
-Then open notebook.ipynb and run all the cells.
+- Cleans and preprocesses SMS text
+- Converts to TF-IDF features
+- Uses a Naive Bayes classifier
+- Predicts whether a message is spam or not
+- Interactive Streamlit UI for real-time use
 
-🛠️Tech Stack
-Python 🐍
+---
 
-Libraries: pandas, scikit-learn, matplotlib, seaborn, nltk
+## 💻 Tech Stack
 
-Jupyter Notebook
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![NLTK](https://img.shields.io/badge/NLTK-Work_in_Progress-orange?style=for-the-badge)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
-📊 Sample Output:
-![Model Output](./screenshots/output.png)
+---
 
-
-
-📜 License
-This project is licensed under the MIT License.
+## 📁 Project Structure
 
