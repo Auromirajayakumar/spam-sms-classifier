@@ -37,8 +37,10 @@ Libraries: pandas, scikit-learn, matplotlib, seaborn, nltk
 
 Jupyter Notebook
 
-📊 Sample Output
-Add a screenshot here from your notebook (accuracy/confusion matrix)
+📊 Sample Output:
+![Model Output](./screenshots/output.png)
+
+
 
 📜 License
 This project is licensed under the MIT License.
