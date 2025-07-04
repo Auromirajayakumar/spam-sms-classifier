@@ -1,10 +1,10 @@
-# 📧 Spam SMS Classifier
+#  Spam SMS Classifier
 
 A simple machine learning model that classifies SMS messages as **Spam** or **Not Spam** using Natural Language Processing (NLP) techniques and classification algorithms.
 
 ---
 
-## 🧠 What it Does
+##  What it Does
 
 - Cleans and processes SMS text using NLP
 - Converts text to numerical features using TF-IDF
@@ -21,7 +21,7 @@ A simple machine learning model that classifies SMS messages as **Spam** or **No
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 git clone https://github.com/Auromirajayakumar/spam-sms-classifier.git
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 jupyter notebook
 Then open notebook.ipynb and run all the cells.
 
-🛠️ Tech Stack
+🛠️Tech Stack
 Python 🐍
 
 Libraries: pandas, scikit-learn, matplotlib, seaborn, nltk
