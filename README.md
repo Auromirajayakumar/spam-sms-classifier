@@ -32,4 +32,38 @@ Trained on the classic SMS Spam Collection Dataset and deployed on **Streamlit C
 ---
 
 ## 📁 Project Structure
+spam-sms-classifier/
+├── dataset/
+│ └── spam.csv
+├── spam-sms-app/
+│ ├── train_model.py
+│ ├── spam_classifier_app.py
+│ └── model.pkl
+├── screenshots/
+│ └── output.png
+├── requirements.txt
+└── README.md
+
+---
+
+## 📷 Demo Screenshot
+
+![App Screenshot](screenshots/output.png)
+
+
+
+---
+
+## 📝 License
+
+This project is under the [MIT License](LICENSE).
+
+---
+
+## 👩‍💻 Author
+
+**Auromira Jayakumar**  
+📫 jayakumarauromira@gmail.com  
+🌐 [LinkedIn](https://www.linkedin.com/in/auromira-jayakumar-1805aa2a9)
+
 
